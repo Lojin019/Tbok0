@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منطقة تبوك — بوابة الشمال</title>
+  <meta name="description" content="اكتشف منطقة تبوك ومحافظاتها الست: ضباء، الوجه، أملج، حقل، تيماء. وجهة سياحية فريدة في شمال غرب المملكة العربية السعودية." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Cairo', 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body>
+
+<!-- ===== شريط التنقل ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-brand">
+      <div class="brand-icon">🌟</div>
+      <span>منطقة تبوك</span>
+    </a>
+    <button class="nav-toggle" onclick="toggleNav()" aria-label="القائمة">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">الرئيسية</a></li>
+      <li><a href="tabuk-city.html">مدينة تبوك</a></li>
+      <li><a href="duba.html">ضباء</a></li>
+      <li><a href="wajh.html">الوجه</a></li>
+      <li><a href="umluj.html">أملج</a></li>
+      <li><a href="haql.html">حقل</a></li>
+      <li><a href="tayma.html">تيماء</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== قسم الهيرو ===== -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('images/tabuk-mountains.jpg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-badge">🇸🇦 شمال غرب المملكة العربية السعودية</span>
+    <h1 class="hero-title">
+      اكتشف <span>منطقة تبوك</span><br/>بوابة الشمال
+    </h1>
+    <p class="hero-subtitle">
+      حيث تلتقي الجبال الشامخة بالبحر الأحمر الساحر، وتتعانق الحضارات العريقة مع الطبيعة الخلابة
+    </p>
+    <div class="hero-buttons">
+      <a href="#governorates" class="btn btn-primary">🗺️ استكشف المحافظات</a>
+      <a href="#about" class="btn btn-outline">تعرف على تبوك</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>اسحب للأسفل</span>
+    <span style="font-size:1.2rem">↓</span>
+  </div>
+</section>
+
+<!-- ===== إحصائيات ===== -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-number">6</span>
+      <span class="stat-label">محافظات</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">+500</span>
+      <span class="stat-label">كم من الساحل</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">2549م</span>
+      <span class="stat-label">أعلى قمة (جبل اللوز)</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">+500 ق.م</span>
+      <span class="stat-label">عمق تاريخي</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== عن تبوك ===== -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="gov-overview">
+      <div class="gov-overview-text fade-in">
+        <div class="section-tag">نبذة عامة</div>
+        <h2 class="section-title" style="text-align:right; font-size:2rem;">منطقة تبوك<br/>بوابة الشمال الساحرة</h2>
+        <p>
+          تقع منطقة تبوك في الجزء الشمالي الغربي من المملكة العربية السعودية، وتُعدّ من أجمل المناطق وأكثرها تنوعاً على مستوى المملكة. تحدّها المملكة الأردنية الهاشمية شمالاً، وخليج العقبة والبحر الأحمر غرباً، ومنطقة الجوف شرقاً، ومنطقة المدينة المنورة جنوباً.
+        </p>
+        <p>
+          يمتد تاريخ تبوك إلى ما قبل الميلاد بأكثر من 500 عام، حيث كانت تُعرف باسم "طابو"، وكانت مركزاً حضارياً مهماً للعيانيين والأنباط. وقد شهدت المنطقة غزوة تبوك الشهيرة في عهد النبي محمد ﷺ عام 9 هجرية.
+        </p>
+        <p>
+          تتميز المنطقة بتنوع جغرافي استثنائي يجمع بين الجبال الثلجية كجبل اللوز، والشواطئ المرجانية الساحرة على البحر الأحمر، والواحات التاريخية، والصحاري الخلابة.
+        </p>
+        <a href="tabuk-city.html" class="btn btn-primary" style="margin-top:1rem; display:inline-flex;">اقرأ المزيد عن تبوك ←</a>
+      </div>
+      <div class="gov-overview-img fade-in">
+        <img src="images/tabuk-castle.jpg" alt="قلعة تبوك الأثرية" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== مميزات المنطقة ===== -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">لماذا تبوك؟</span>
+      <h2 class="section-title">ما يميّز منطقة تبوك</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🏔️</div>
+        <h3 class="feature-title">جبال شامخة</h3>
+        <p class="feature-desc">جبل اللوز بارتفاع 2549م يكتسي بالثلوج شتاءً، وجبال الديسة بتشكيلاتها الصخرية الرائعة</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🌊</div>
+        <h3 class="feature-title">شواطئ ساحرة</h3>
+        <p class="feature-desc">أكثر من 500 كم من شواطئ البحر الأحمر بمياهها الفيروزية والشعاب المرجانية النادرة</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🏛️</div>
+        <h3 class="feature-title">إرث تاريخي</h3>
+        <p class="feature-desc">قلعة تبوك الأثرية، آثار شعيب، واحة تيماء، ومواقع نبطية تعود لآلاف السنين</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-icon">🌿</div>
+        <h3 class="feature-title">طبيعة متنوعة</h3>
+        <p class="feature-desc">من الصحراء الخلابة إلى الواحات الخضراء والمناخ المعتدل الذي يجذب الزوار طوال العام</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== المحافظات ===== -->
+<section class="section section-alt" id="governorates">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">استكشف</span>
+      <h2 class="section-title">محافظات منطقة تبوك</h2>
+      <p class="section-desc">ست محافظات تحمل كل منها طابعاً فريداً وجمالاً خاصاً</p>
+      <div class="divider"></div>
+    </div>
+    <div class="governorates-grid">
+
+      <!-- ضباء -->
+      <div class="gov-card fade-in" onclick="location.href='duba.html'">
+        <div class="gov-card-img">
+          <img src="images/duba-sea.jpg" alt="محافظة ضباء" loading="lazy" />
+          <span class="gov-card-badge">ساحلية</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة ضباء</h3>
+          <p class="gov-card-desc">تقع على ساحل البحر الأحمر شمال غرب تبوك، وتتميز بميناء تاريخي عريق وشواطئ جميلة وتراث بحري أصيل يعود لأكثر من 1200 عام.</p>
+          <div class="gov-card-footer">
+            <a href="duba.html" class="gov-card-link">اكتشف ضباء ←</a>
+            <div class="gov-card-icon">⚓</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- الوجه -->
+      <div class="gov-card fade-in" onclick="location.href='wajh.html'">
+        <div class="gov-card-img">
+          <img src="images/wajh-sea.jpg" alt="محافظة الوجه" loading="lazy" />
+          <span class="gov-card-badge">ساحلية</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة الوجه</h3>
+          <p class="gov-card-desc">مدينة ساحلية ذات طابع صيد تاريخي، تشتهر بجزرها الجميلة وشعابها المرجانية النادرة وشواطئها الهادئة على البحر الأحمر.</p>
+          <div class="gov-card-footer">
+            <a href="wajh.html" class="gov-card-link">اكتشف الوجه ←</a>
+            <div class="gov-card-icon">🐠</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- أملج -->
+      <div class="gov-card fade-in" onclick="location.href='umluj.html'">
+        <div class="gov-card-img">
+          <img src="images/umluj-sea.jpg" alt="محافظة أملج" loading="lazy" />
+          <span class="gov-card-badge">مالديف السعودية</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة أملج</h3>
+          <p class="gov-card-desc">تُلقّب بـ"مالديف السعودية" لجمال شواطئها وصفاء مياهها الفيروزية، وتضم شعاباً مرجانية رائعة تجذب الغواصين من كل أنحاء العالم.</p>
+          <div class="gov-card-footer">
+            <a href="umluj.html" class="gov-card-link">اكتشف أملج ←</a>
+            <div class="gov-card-icon">🏝️</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- حقل -->
+      <div class="gov-card fade-in" onclick="location.href='haql.html'">
+        <div class="gov-card-img">
+          <img src="images/haql-island.jpg" alt="محافظة حقل" loading="lazy" />
+          <span class="gov-card-badge">خليج العقبة</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة حقل</h3>
+          <p class="gov-card-desc">تقع في أقصى شمال غرب المملكة على خليج العقبة، وتتميز بشواطئها الرملية الناصعة البياض ومياهها الصافية وقربها من الأردن وسيناء.</p>
+          <div class="gov-card-footer">
+            <a href="haql.html" class="gov-card-link">اكتشف حقل ←</a>
+            <div class="gov-card-icon">🌅</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- تيماء -->
+      <div class="gov-card fade-in" onclick="location.href='tayma.html'">
+        <div class="gov-card-img">
+          <img src="images/tayma-ruins.webp" alt="محافظة تيماء" loading="lazy" />
+          <span class="gov-card-badge">تاريخية</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة تيماء</h3>
+          <p class="gov-card-desc">واحة تاريخية عريقة في قلب الصحراء، تحتضن آثاراً تعود لآلاف السنين وكانت محطة تجارية مهمة على طريق الحرير القديم.</p>
+          <div class="gov-card-footer">
+            <a href="tayma.html" class="gov-card-link">اكتشف تيماء ←</a>
+            <div class="gov-card-icon">🏺</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- مدينة تبوك -->
+      <div class="gov-card fade-in" onclick="location.href='tabuk-city.html'">
+        <div class="gov-card-img">
+          <img src="images/tabuk-city-night.jpg" alt="مدينة تبوك" loading="lazy" />
+          <span class="gov-card-badge">العاصمة</span>
+        </div>
+        <div class="gov-card-body">
+          <h3 class="gov-card-title">محافظة تبوك</h3>
+          <p class="gov-card-desc">عاصمة المنطقة وأكبر مدنها، تجمع بين التراث الأصيل والحداثة، وتضم قلعة تبوك الأثرية وجبل اللوز وعدداً من المعالم التاريخية والطبيعية.</p>
+          <div class="gov-card-footer">
+            <a href="tabuk-city.html" class="gov-card-link">اكتشف تبوك ←</a>
+            <div class="gov-card-icon">🏙️</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== معرض الصور ===== -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">معرض الصور</span>
+      <h2 class="section-title">لقطات من تبوك</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="gallery-grid fade-in">
+      <div class="gallery-item large">
+        <img src="images/red-sea-aerial.jpg" alt="البحر الأحمر من الجو" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">البحر الأحمر الساحر</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/jabal-allawz-snow.jpg" alt="جبل اللوز بالثلج" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">جبل اللوز الثلجي</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/tabuk-castle2.jpg" alt="قلعة تبوك" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">قلعة تبوك الأثرية</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/coral-reef.jpg" alt="الشعاب المرجانية" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">الشعاب المرجانية</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/umluj-beach.jpg" alt="شاطئ أملج" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">شاطئ أملج الفيروزي</span></div>
+      </div>
+      <div class="gallery-item large">
+        <img src="images/tabuk-canyon.jpg" alt="وادي تبوك" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">الوديان والتشكيلات الصخرية</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== الفوتر ===== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🌟 منطقة تبوك</h3>
+        <p>
+          بوابة الشمال وجوهرة شمال غرب المملكة العربية السعودية. منطقة تجمع بين روعة الطبيعة وعمق التاريخ وأصالة التراث.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>المحافظات</h4>
+        <ul>
+          <li><a href="tabuk-city.html">محافظة تبوك</a></li>
+          <li><a href="duba.html">محافظة ضباء</a></li>
+          <li><a href="wajh.html">محافظة الوجه</a></li>
+          <li><a href="umluj.html">محافظة أملج</a></li>
+          <li><a href="haql.html">محافظة حقل</a></li>
+          <li><a href="tayma.html">محافظة تيماء</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>المعالم</h4>
+        <ul>
+          <li><a href="#">قلعة تبوك</a></li>
+          <li><a href="#">جبل اللوز</a></li>
+          <li><a href="#">واحة تيماء</a></li>
+          <li><a href="#">شواطئ أملج</a></li>
+          <li><a href="#">ميناء ضباء</a></li>
+          <li><a href="#">جزر الوجه</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>معلومات</h4>
+        <ul>
+          <li><a href="#">الموقع الجغرافي</a></li>
+          <li><a href="#">المناخ والطقس</a></li>
+          <li><a href="#">كيفية الوصول</a></li>
+          <li><a href="#">الفنادق والإقامة</a></li>
+          <li><a href="#">المطاعم</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 منطقة تبوك — جميع الحقوق محفوظة | المملكة العربية السعودية 🇸🇦</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('navLinks').classList.toggle('open');
+}
+
+// تأثير الظهور عند التمرير
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
